@@ -9,8 +9,7 @@
 
     <link rel="SHORTCUT ICON" href="images/fibble.png" type="image/x-icon" />
     <link rel="ICON" href="images/fibble.png" type="image/ico" />
-
-    <title>Fibble - Decentralized Application</title>
+    <title>RFPS - A blockchain based Daap for authentication</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -21,6 +20,7 @@
 
   </head>
   <body class="violetgradient">
+   <br><br>
   <?php
   if( !isset($_SESSION['role']) ){
   ?>
@@ -37,10 +37,12 @@
     <div style="width: 100%">
       <center>
       <div class="loginformcard" id="card1">
-            <h4> Welcome to Fibble - The Supply Chain DAPP</h4>
+            <h3>RFPS - An Etherium Daap for authentication</h3>
+            <br><br>
             <p style="max-width: 80%;">
-            Fibble is a Decentralized E2E Logistics Application that stores the whereabouts of product at every freight hub on the Blockchain. At consumer end, customers can simply scan the QR CODE of products and get complete information about the provenance of that product hence empowering consumers to only purchase authentic and quality products.
+            A Decentralized Logistics Application that stores the whereabouts of product at every freight hub on the Blockchain. At consumer end, customers can simply scan the QR CODE of products and get complete information about the provenance of that product hence empowering consumers to only purchase authentic and quality products.
             </p>
+            <br><br>
                 <div class="cardbtnarea">
                     <button class="col-md-5 rolebtn" id="login">Login</button>
                     <button class="col-md-5 rolebtn" id="signup">Signup</button>
@@ -223,4 +225,4 @@
     </script>
   </body>
 </html>
-<!-- Developed by Anubhav Dutta : https://www.linkedin.com/in/iamanubhavdutta/ -->
+
