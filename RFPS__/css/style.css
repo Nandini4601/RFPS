@@ -131,7 +131,7 @@ body, html {
 }
 
 .rolebtn{
-    background-color: #147EFB;
+    background-color: hotpink;
     padding: 10px;
     border: 0px;
     height: 46px;
@@ -141,24 +141,24 @@ body, html {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .rolebtn:hover{
-    background-color: #1279e0;
+    background-color: hotpink;
     transition: background-color 0.5s ease;
     box-shadow: 0 3px 6px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.30);
 }
-.formbtn{
-    background-color: #147EFB;
-    padding: 5px;
-    border: 0px;
-    height: 35px;
-    color: white;
-    margin: 10px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    width: 80%;
-    border-radius: 5px 5px 5px 5px;
-    margin-top: 25px;
+.formbtn {
+  background-color:hotpink ;
+  padding: 5px;
+  border: 0px;
+  height: 35px;
+  color: white;
+  margin: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 80%;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 25px;
 }
 .formbtn:hover{
-    background-color: #1279e0;
+    background-color: darkturquoise;
     transition: background-color 0.5s ease;
     box-shadow: 0 3px 6px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.30);
 }
@@ -367,13 +367,13 @@ main form input:invalid {
     padding: 5px;
 }
 
-.violetgradient{
-    margin:0px;
-  background: linear-gradient(-45deg,#752bad,#5e41e0, #418be0, #41a6e0 );
+.violetgradient {
+  margin: 0px;
+  background: linear-gradient(-45deg,lightpink,pink, mediumturquoise, turquoise );
   background-size: 400% 400%;
   -webkit-animation: gradientBG 10s ease infinite;
-          animation: gradientBG 10s ease infinite;
-  }
+  animation: gradientBG 10s ease infinite;
+}
   @-webkit-keyframes gradientBG {
       0% {
           background-position: 0% 50%;
